@@ -4371,33 +4371,33 @@ files:
   test/integration/targets/azure_rm_virtualnetwork/tasks/main.yml:
     migrated_to: azure.azcollection
   test/units/modules/utils.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/compat/__init__.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/compat/builtins.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/compat/unittest.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/compat/mock.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/mock/__init__.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/mock/vault_helper.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/mock/loader.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/mock/path.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/mock/yaml_helper.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/mock/procenv.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/plugins/httpapi/test_checkpoint.py:
     migrated_to: check_point.mgmt
   test/units/plugins/httpapi/__init__.py:
     migrated_to: check_point.mgmt
   test/units/modules/conftest.py:
-    migrated_to: f5networks.f5_modules
+    migrated_to: openstack.cloud
   test/units/modules/network/check_point/test_cp_mgmt_access_layer.py:
     migrated_to: check_point.mgmt
   test/units/modules/network/check_point/__init__.py:
@@ -5950,6 +5950,14 @@ files:
     migrated_to: google.cloud
   test/integration/targets/gcp_tpu_node/tasks/main.yml:
     migrated_to: google.cloud
+  test/units/plugins/inventory/test_openstack.py:
+    migrated_to: openstack.cloud
+  test/units/plugins/inventory/__init__.py:
+    migrated_to: openstack.cloud
+  test/units/modules/cloud/openstack/test_os_server.py:
+    migrated_to: openstack.cloud
+  test/units/modules/cloud/openstack/__init__.py:
+    migrated_to: openstack.cloud
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules

@@ -4441,27 +4441,27 @@ files:
   test/integration/targets/azure_rm_virtualnetwork/tasks/main.yml:
     migrated_to: azure.azcollection
   test/units/modules/utils.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/compat/__init__.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/compat/builtins.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/compat/unittest.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/compat/mock.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/mock/__init__.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/mock/vault_helper.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/mock/loader.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/mock/path.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/mock/yaml_helper.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/mock/procenv.py:
-    migrated_to: dellemc_networking.os6
+    migrated_to: netbox.netbox
   test/units/plugins/httpapi/test_checkpoint.py:
     migrated_to: check_point.mgmt
   test/units/plugins/httpapi/__init__.py:
@@ -7667,7 +7667,7 @@ files:
   lib/ansible/modules/storage/netapp/na_ontap_vserver_peer.py:
     migrated_to: netapp.ontap
   test/units/module_utils/conftest.py:
-    migrated_to: cisco.meraki
+    migrated_to: netbox.netbox
   test/units/modules/storage/netapp/test_na_ontap_aggregate.py:
     migrated_to: netapp.ontap
   test/units/modules/storage/netapp/test_na_ontap_autosupport.py:
@@ -16360,6 +16360,12 @@ files:
     migrated_to: hetzner.hcloud
   test/integration/targets/hcloud_volume_info/tasks/main.yml:
     migrated_to: hetzner.hcloud
+  lib/ansible/module_utils/net_tools/netbox/netbox_utils.py:
+    migrated_to: netbox.netbox
+  test/units/module_utils/net_tools/netbox/test_netbox_utils.py:
+    migrated_to: netbox.netbox
+  test/units/module_utils/net_tools/netbox/__init__.py:
+    migrated_to: netbox.netbox
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules

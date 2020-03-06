@@ -4435,27 +4435,27 @@ files:
   test/integration/targets/azure_rm_virtualnetwork/tasks/main.yml:
     migrated_to: azure.azcollection
   test/units/modules/utils.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/compat/__init__.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/compat/builtins.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/compat/unittest.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/compat/mock.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/mock/__init__.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/mock/vault_helper.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/mock/loader.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/mock/path.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/mock/yaml_helper.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/mock/procenv.py:
-    migrated_to: cisco.iosxr
+    migrated_to: cisco.meraki
   test/units/plugins/httpapi/test_checkpoint.py:
     migrated_to: check_point.mgmt
   test/units/plugins/httpapi/__init__.py:
@@ -7661,7 +7661,7 @@ files:
   lib/ansible/modules/storage/netapp/na_ontap_vserver_peer.py:
     migrated_to: netapp.ontap
   test/units/module_utils/conftest.py:
-    migrated_to: cisco.aci
+    migrated_to: cisco.meraki
   test/units/modules/storage/netapp/test_na_ontap_aggregate.py:
     migrated_to: netapp.ontap
   test/units/modules/storage/netapp/test_na_ontap_autosupport.py:
@@ -13744,6 +13744,104 @@ files:
     migrated_to: cisco.iosxr
   test/integration/targets/iosxr_acls/tests/cli/fixtures/parsed.cfg:
     migrated_to: cisco.iosxr
+  lib/ansible/plugins/doc_fragments/meraki.py:
+    migrated_to: cisco.meraki
+  lib/ansible/module_utils/network/meraki/__init__.py:
+    migrated_to: cisco.meraki
+  lib/ansible/module_utils/network/meraki/meraki.py:
+    migrated_to: cisco.meraki
+  lib/ansible/modules/network/meraki/__init__.py:
+    migrated_to: cisco.meraki
+  test/units/module_utils/network/meraki/__init__.py:
+    migrated_to: cisco.meraki
+  test/units/module_utils/network/meraki/fixtures/orgs.json:
+    migrated_to: cisco.meraki
+  test/units/module_utils/network/meraki/test_meraki.py:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_admin/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_config_template/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_config_template/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_content_filtering/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_content_filtering/meraki_config_template/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_content_filtering/meraki_config_template/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_content_filtering/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_device/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_device/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_firewalled_services/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_firewalled_services/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_firewalled_services/tasks/tests.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_malware/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_malware/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_mr_l3_firewall/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_mr_l3_firewall/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_mx_l3_firewall/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_mx_l3_firewall/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_mx_l7_firewall/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_mx_l7_firewall/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_mx_l7_firewall/tasks/tests.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_nat/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_nat/tasks/tests.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_network/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_network/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_organization/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_organization/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_organization/tasks/tests.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_snmp/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_snmp/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_ssid/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_ssid/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_static_route/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_static_route/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_switchport/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_switchport/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_syslog/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_vlan/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_vlan/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_webhook/aliases:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_webhook/tasks/main.yml:
+    migrated_to: cisco.meraki
+  test/integration/targets/meraki_webhook/tasks/tests.yml:
+    migrated_to: cisco.meraki
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules

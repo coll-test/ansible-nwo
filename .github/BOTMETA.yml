@@ -4371,33 +4371,33 @@ files:
   test/integration/targets/azure_rm_virtualnetwork/tasks/main.yml:
     migrated_to: azure.azcollection
   test/units/modules/utils.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/compat/__init__.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/compat/builtins.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/compat/unittest.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/compat/mock.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/mock/__init__.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/mock/vault_helper.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/mock/loader.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/mock/path.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/mock/yaml_helper.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/mock/procenv.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/plugins/httpapi/test_checkpoint.py:
     migrated_to: check_point.mgmt
   test/units/plugins/httpapi/__init__.py:
     migrated_to: check_point.mgmt
   test/units/modules/conftest.py:
-    migrated_to: netapp.aws
+    migrated_to: netapp.elementsw
   test/units/modules/network/check_point/test_cp_mgmt_access_layer.py:
     migrated_to: check_point.mgmt
   test/units/modules/network/check_point/__init__.py:
@@ -7542,6 +7542,8 @@ files:
     migrated_to: netapp.aws
   test/units/modules/cloud/amazon/test_aws_netapp_cvs_snapshots.py:
     migrated_to: netapp.aws
+  test/units/modules/storage/netapp/__init__.py:
+    migrated_to: netapp.elementsw
 macros:
   module_utils: lib/ansible/module_utils
   modules: lib/ansible/modules
